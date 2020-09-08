@@ -41,7 +41,7 @@ const App = () => {
           return { ...psts, likes: psts.likes + 1 };
         }
 
-        return { psts };
+        return psts;
       })
     );
   };

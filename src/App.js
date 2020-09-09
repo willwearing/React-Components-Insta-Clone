@@ -71,7 +71,7 @@ const App = () => {
     <div className="App">
       {/* Add SearchBar and Posts here to render them */}
       {/* Check the implementation of each component, to see what props they require, if any! */}
-      <SearchBar searchTerm={setSearchTerm} searchPost={searchPost} />
+      <SearchBar setSearchTerm={setSearchTerm} searchPost={searchPost} />
       {searchResults.map((post) => ({ post }))}
       <Posts posts={posts} likePost={likePost} />
     </div>
